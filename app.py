@@ -26,4 +26,4 @@ def testarLeds(comport):
 if __name__ == '__main__':
 
     eel.init('www')
-    eel.start('index.html')
+    eel.start('index.html', port=8003)
